@@ -1,0 +1,52 @@
+body {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+    
+    .image-container {
+    display: flex;
+    }
+    
+    .image-wrapper {
+    perspective: 1000px;
+    margin: 10px;
+
+    }
+    
+    .image {
+    width: 500px;
+    height: 550px;
+    display: inline-block;
+    transition: transform 0.5s;
+    }
+    
+    .image:hover {
+    transform: rotateY(180deg);
+    }
+
+
+
+#pic{
+    margin-top: auto;
+    border: 20px;
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+}
+img{
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+    transition: transform 0.5s;
+        }
+        
+        .img:hover {
+        transform: rotateY(180deg);
+        
+}
+h1{
+    text-align: center;
+}
